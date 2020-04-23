@@ -9,11 +9,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.yra.contact.trace</groupId>
-	<artifactId>contact-trace</artifactId>
+	<groupId>com.yra.contact</groupId>
+	<artifactId>contact-trace-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>contact-trace</name>
-	<description>corona contact tracing demo</description>
+	<name>contact-trace-api</name>
+	<description>contact trace api</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -31,11 +31,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
 
 		<dependency>

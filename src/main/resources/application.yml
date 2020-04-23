@@ -1,1 +1,8 @@
-
+server:
+  port: 8080
+spring:
+  application:
+    name: contract-trace-api
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
