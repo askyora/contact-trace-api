@@ -1,6 +1,6 @@
 FROM openjdk:20-ea-29-jdk-slim
 
-MAINTAINER Name <shanakaray@yahoo.com>
+MAINTAINER Name Yohan Shanaka Ranasinghe.
 
 VOLUME /tmp
 ARG JAR_FILE
