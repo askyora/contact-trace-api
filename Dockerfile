@@ -1,4 +1,4 @@
-FROM openjdk:11.0-slim
+FROM openjdk:20-ea-29-jdk-slim
 
 MAINTAINER Name <shanakaray@yahoo.com>
 
